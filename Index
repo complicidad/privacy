@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad – Complicidad Boutique</title>
+  <meta name="description" content="Conoce cómo Complicidad Boutique usa y protege tus datos personales." />
+  <style>
+    :root{
+      --bg:#f7f7f8; 
+      --card:#ffffff; 
+      --text:#222; 
+      --muted:#555; 
+      --brand:#1a73e8; 
+      --brand-hover:#1669c1; 
+      --border:#e7e7ea; 
+      --radius:14px;
+      --shadow:0 6px 20px rgba(0,0,0,.06);
+    }
+    html,body{height:100%;}
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; 
+      background:var(--bg); color:var(--text);
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    .wrap{max-width:880px; margin:40px auto; padding:0 16px;}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow);}
+    .header{padding:28px 24px 8px;}
+    h1{margin:0 0 6px; font-size:clamp(22px, 3vw, 32px);}
+    .updated{color:var(--muted); font-size:14px;}
+    .content{padding:6px 24px 24px;}
+    .summary{
+      background:linear-gradient(180deg, #ffffff 0%, #fbfbfc 100%);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:18px; margin:16px 0 20px;
+    }
+    .summary p{margin:0 0 10px; color:var(--muted);}
+    .actions{display:flex; flex-wrap:wrap; gap:10px;}
+    a.button, button.button{
+      appearance:none; border:none; cursor:pointer; text-decoration:none; 
+      background:var(--brand); color:#fff; font-weight:600; 
+      padding:12px 18px; border-radius:10px; display:inline-flex; align-items:center; justify-content:center;
+    }
+    a.button:hover, button.button:hover{background:var(--brand-hover);}    
+    .link{color:var(--brand); text-decoration:none;}
+    .link:hover{text-decoration:underline;}
+    details{border-top:1px dashed var(--border); padding-top:16px;}
+    details > summary{
+      font-weight:700; cursor:pointer; list-style:none; outline:none; 
+    }
+    details > summary::-webkit-details-marker{display:none;}
+    details[open]{animation:reveal .2s ease-out;}
+    @keyframes reveal{from{opacity:.6; transform:translateY(-2px);} to{opacity:1; transform:translateY(0);} }
+    .section{margin:18px 0;}
+    .section h2{font-size:18px; margin:0 0 8px;}
+    .section p, .section li{color:#3b3b3b;}
+    .footer{padding:18px 24px 24px; color:var(--muted); font-size:14px;}
+    .muted{color:var(--muted);}    
+    .notice{font-size:12px; color:#6b6b6b; margin-top:12px;}
+    .print{margin-left:auto;}
+    @media (max-width:480px){ .actions{flex-direction:column;} .print{margin-left:0;} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" role="article">
+      <header class="header">
+        <h1>Política de Privacidad – Complicidad Boutique</h1>
+        <div class="updated">Última actualización: 13 de agosto de 2025</div>
+      </header>
+      <div class="content">
+        <!-- Versión corta / resumen -->
+        <div class="summary" aria-labelledby="resumen-title">
+          <strong id="resumen-title">Versión resumida</strong>
+          <p>En <strong>Complicidad Boutique</strong> usamos tus datos personales únicamente para <strong>procesar y entregar tu pedido</strong>, cumplir obligaciones legales y, si lo autorizas, <strong>enviarte promociones</strong>. No vendemos ni alquilamos tu información. Puedes ejercer tus derechos de acceso, rectificación, eliminación o revocación de consentimiento escribiéndonos a <a class="link" href="mailto:soporte@complicidad.pe">soporte@complicidad.pe</a>.</p>
+          <div class="actions">
+            <a class="button" href="#politica-completa">Ver Política Completa</a>
+            <button class="button print" onclick="window.print()" aria-label="Imprimir o guardar en PDF">Imprimir / Guardar PDF</button>
+          </div>
+          <div class="notice">Esta versión corta es solo informativa. Te recomendamos revisar la versión completa para conocer todos los detalles.</div>
+        </div>
+
+        <!-- Versión completa accesible -->
+        <section id="politica-completa" class="section" aria-label="Política completa">
+          <h2>Política de Privacidad (completa)</h2>
+
+          <p class="muted">Esta política se aplica al uso de nuestros formularios de compra y envío, sitio web y canales asociados. Está adaptada a la Ley de Protección de Datos Personales de Perú (Ley N.º 29733) y buenas prácticas internacionales.</p>
+
+          <div class="section">
+            <h2>1. Información que recopilamos</h2>
+            <ul>
+              <li>Nombre y apellidos.</li>
+              <li>Dirección de envío (calle, número, referencia, ciudad, provincia, código postal, país).</li>
+              <li>Teléfono y correo electrónico.</li>
+              <li>Detalles de pago (procesados por pasarelas seguras; no almacenamos números completos de tarjeta).</li>
+              <li>Datos técnicos mínimos del dispositivo para seguridad y prevención de fraude (p. ej., IP aproximada).</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>2. Finalidad del tratamiento</h2>
+            <ul>
+              <li>Procesar, enviar y entregar tu pedido.</li>
+              <li>Atender consultas, cambios o devoluciones.</li>
+              <li>Cumplir obligaciones legales, contables y tributarias.</li>
+              <li>Con tu consentimiento: enviarte promociones, novedades o encuestas de satisfacción.</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>3. Base legal</h2>
+            <ul>
+              <li>Ejecución de contrato (gestionar tu compra y entrega).</li>
+              <li>Interés legítimo (prevención de fraude y seguridad del servicio).</li>
+              <li>Consentimiento expreso (comunicaciones comerciales/marketing).</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>4. Compartición con terceros</h2>
+            <p>Compartimos datos solo con terceros necesarios para la operación:</p>
+            <ul>
+              <li>Empresas de mensajería o transporte para realizar la entrega.</li>
+              <li>Pasarelas de pago y bancos para procesar cobros.</li>
+              <li>Proveedores tecnológicos que alojan o soportan nuestros sistemas.</li>
+              <li>Autoridades competentes cuando la ley lo requiera.</li>
+            </ul>
+            <p><strong>No vendemos</strong> ni alquilamos tus datos personales.</p>
+          </div>
+
+          <div class="section">
+            <h2>5. Conservación</h2>
+            <p>Conservamos tus datos por el tiempo necesario para cumplir las finalidades indicadas y por los plazos legales aplicables (por ejemplo, obligaciones tributarias).</p>
+          </div>
+
+          <div class="section">
+            <h2>6. Derechos ARCO y otros</h2>
+            <p>Puedes ejercer tus derechos de <strong>Acceso, Rectificación, Cancelación y Oposición</strong>, así como solicitar la <strong>revocación</strong> del consentimiento o la <strong>portabilidad</strong> de tus datos escribiendo a <a class="link" href="mailto:soporte@complicidad.pe">soporte@complicidad.pe</a>. Para procesar tu solicitud podremos pedir verificación de identidad.</p>
+          </div>
+
+          <div class="section">
+            <h2>7. Seguridad</h2>
+            <p>Aplicamos medidas técnicas, administrativas y físicas razonables para proteger tus datos contra accesos no autorizados, pérdida o uso indebido. Recomendamos no compartir tus credenciales con terceros.</p>
+          </div>
+
+          <div class="section">
+            <h2>8. Transferencias internacionales</h2>
+            <p>Si utilizamos proveedores ubicados fuera de Perú, adoptaremos medidas para garantizar un nivel de protección adecuado y, cuando corresponda, suscribiremos las cláusulas contractuales necesarias.</p>
+          </div>
+
+          <div class="section">
+            <h2>9. Menores de edad</h2>
+            <p>Nuestros servicios no están dirigidos a menores de 18 años. Si detectamos que tratamos datos de un menor sin autorización válida, procederemos a eliminarlos.</p>
+          </div>
+
+          <div class="section">
+            <h2>10. Cambios a esta política</h2>
+            <p>Podemos actualizar esta Política para reflejar cambios legales o de negocio. Indicaremos la fecha de última actualización y, cuando corresponda, te notificaremos por canales razonables.</p>
+          </div>
+
+          <div class="section">
+            <h2>11. Contacto</h2>
+            <address>
+              Complicidad Boutique<br />
+              Correo: <a class="link" href="mailto:soporte@complicidad.pe">soporte@complicidad.pe</a><br />
+              Teléfono: <a class="link" href="tel:+51999999999">+51 999 999 999</a>
+            </address>
+          </div>
+
+          <details>
+            <summary>Información adicional para transparencia</summary>
+            <div class="section">
+              <h2>Cookies y tecnologías similares</h2>
+              <p>Podemos usar cookies estrictamente necesarias para el funcionamiento del sitio y, con tu consentimiento, cookies de medición o marketing. Puedes gestionar tus preferencias desde la configuración de tu navegador.</p>
+            </div>
+            <div class="section">
+              <h2>Atención de quejas</h2>
+              <p>Si consideras que se han vulnerado tus derechos, puedes escribirnos al correo indicado. También puedes dirigirte a la Autoridad Nacional de Protección de Datos Personales (ANPD) en Perú.</p>
+            </div>
+          </details>
+        </section>
+      </div>
+      <footer class="footer">
+        © <span id="year"></span> Complicidad Boutique. Todos los derechos reservados.
+      </footer>
+    </article>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
